@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+    color: #000000;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(300deg, #1e0e02, #0f5a3d);
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    padding: 30px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 24px;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.select-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 60px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #8ab4f8;
+    background: rgba(255, 255, 255, 0.12);
+    color: #000000;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(300deg, #1e0e02, #0f5a3d);
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5fa1f3;
+}
+
+.mensaje {
+    margin-top: 20px;
+    font-size: 1rem;
+    min-height: 1.2em;
+}
